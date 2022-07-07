@@ -5,7 +5,7 @@ import joblib
 model_nb = joblib.load('spam-ham')
 
 #user input 
-st.title("SPAM HAM CLASSIFICATION")
+st.title("Fake-Real SMS Messages")
 ip = st.text_input("Enter your message:")
 
 #predict if the entered message is spam or ham 
