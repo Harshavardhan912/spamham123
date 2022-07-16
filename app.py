@@ -2,7 +2,7 @@ import streamlit as st
 import joblib 
 
 #load the joblib model 
-model_nb = joblib.load('spam-ham')
+model_nb = joblib.load('Cars.csv')
 
 #user input 
 st.title("Fake-Real SMS Messages")
